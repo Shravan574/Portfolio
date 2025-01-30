@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sravan's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        img 
+        {
+            border-radius: 100px;
+            justify-content: flex-end;
+            align-items: flex-start;
+            height: 150px;
+            width: 150px;
+        }
+        img:hover 
+        {
+            transform: scale(1.1);
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1em;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            color:aquamarine;
+            border: 2px solid rgb(252, 251, 251);
+            padding: 15px;
+        }
+        section {
+            margin: 2em 5%;
+            padding: 1.5em;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5em;
+        }
+        .project {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+        }
+        .project-card {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1em;
+            width: calc(50% - 2em);
+        }
+        .skills ul, .achievements ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills ul li, .achievements ul li {
+            background-color: #ddd;
+            border-radius: 4px;
+            display: inline-block;
+            margin: 0.5em;
+            padding: 0.5em 1em;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .contact-form input, .contact-form textarea, .contact-form button {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sravan's Portfolio</h1>
+        <img src="sravan.jpg" alt="Profile Picture">
+        <nav>
+            <ul>
+                <li><a href="#introduction">Home</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="introduction">
+        <h2>Malyala Sai Sravan</h2>
+        <p>Hi, I'm a Computer Science graduate passionate about web development and software engineering.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>B.Tech in Computer Science, Kamala Institute of Technology & Science (GPA: 6.97)</li>
+            <li>Intermediate in PCM, NSR Impulse Junior College (97.8%)</li>
+            <li>Matriculation, Sri Chaitanya High School (GPA: 10)</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <div class="project-card">
+                <h3>Website for Agros Fertilizers</h3>
+                <p>A dynamic platform for purchasing fertilizers with admin-based inventory management. Built using Java Full Stack (Spring MVC).</p>
+            </div>
+            <div class="project-card">
+                <h3>Blood Bank Website</h3>
+                <p>Streamlining blood availability and tracking units using Flask and JavaScript.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>C, Java, Python</li>
+            <li>HTML5, CSS3, JavaScript</li>
+            <li>Spring MVC, Flask</li>
+            <li>VS Code, PyCharm, Jupyter Notebook</li>
+        </ul>
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements & Certifications</h2>
+        <ul>
+            <li>HTML, CSS, and JavaScript - Guvi</li>
+            <li>Python Programming Essentials - Brain-o-vision</li>
+            <li>1st Prize in Chess Competition</li>
+            <li>Key member of Kamalavani college club</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form class="contact-form" action="#">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p>Email: <a href="mailto:sravansaimalyala@gmail.com">sravansaimalyala@gmail.com</a></p>
+        <p>Phone: +91 7075057119</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sravan's Portfolio</p>
+    </footer>
+</body>
+</html>
