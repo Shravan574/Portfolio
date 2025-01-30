@@ -19,7 +19,9 @@ This is a personal portfolio website built using **HTML, CSS, and JavaScript**. 
 
 ## 📥 Installation & Setup
 1. **Clone the repository:**
-   ```sh
+   ```bash
    git clone https://github.com/your-username/portfolio-website.git
+  ```
+  ```bash
    cd portfolio-website
   ```
