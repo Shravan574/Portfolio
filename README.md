@@ -20,6 +20,6 @@ This is a personal portfolio website built using **HTML, CSS, and JavaScript**. 
 ## 📥 Installation & Setup
 **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/portfolio-website.git
+   git clone https://github.com/Shravan574/Portfolio
   ```
 
